@@ -14,6 +14,7 @@ function main() {
       }
       const note = store.add(text);
       console.log(`Added note #${note.id}: ${note.text}`);
+      console.log("Confirmation: Claude caught the stray change (the unintended backtick edit to the usage line).");
       break;
     }
     case "list": {
