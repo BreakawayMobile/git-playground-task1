@@ -20,4 +20,4 @@ Things that look unintended
 - git status shows M for tracked files that changed and ?? for untracked ones. Only the M file appears in git diff. To review notes.md as a diff, run git add -N notes.md first.
   ─────────────────────────────────────────────────
 
-  Confirmation: Claude caught the change that was made.
+  Confirmation: Claude caught the change that was made (the new "Unknown command" line in notes.js). It also caught the stray change: it flagged the unintended switch of the usage line to backticks, a template literal with no interpolation, as something that would clutter the diff.
